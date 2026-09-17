@@ -23,3 +23,18 @@ Le jeu de données provient du *UCI Machine Learning Repository* (`cc_approvals.
 ```bash
 git clone https://github.com/mariusfofana123/Prediction-approbation-de-cartes-de-credit.git
 cd Prediction-approbation-de-cartes-de-credit
+
+
+2. Créer et activer un environnement virtuel :
+'''bash
+python3 -m venv venv
+source venv/bin/activate
+
+3. Installer les dépendances :
+'''bash
+pip install -r requirements.txt
+
+
+4. Lancer le notebook :
+'''bash
+jupyter notebook Notebooks/analyse.ipynb
